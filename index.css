@@ -164,7 +164,7 @@ body {
   border-radius: 50px;
   width: 48%;
   justify-content: space-between;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .list-text {
@@ -197,4 +197,7 @@ body {
 
 .a-1 img {
   margin-left: 20px;
+}
+.bac{
+  margin-right: 0px;
 }
