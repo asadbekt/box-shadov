@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-family: 'Nunito Sans', "Lato" sans-serif;
+  font-family: 'Nunito Sans', "Lato"sans-serif;
   background-color: #F6FAFD;
 }
 
@@ -57,11 +57,16 @@ body {
   padding: 7px 20px;
 }
 
-.botton {
-  display: flex;
-  padding: 0px;
-  margin: 0;
+.button {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  padding: 16px 29px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: none;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+
 }
 
 .bar-menu .active {
@@ -89,7 +94,7 @@ body {
 
 .haedr-center {
   width: 645px;
-
+  padding-right: 20px;
 }
 
 .haedr button {
@@ -161,7 +166,7 @@ body {
   background: rgba(104, 201, 186, 0.11);
   display: flex;
   padding: 40px 20px;
-  border-radius: 50px;
+  border-radius: 74% 26% 98% 2% / 67% 100% 0% 33% ;
   width: 48%;
   justify-content: space-between;
   margin-right: 40px;
@@ -169,7 +174,6 @@ body {
 
 .list-text {
   width: 442px;
-  border-radius: 50px;
 
 }
 
@@ -185,6 +189,7 @@ body {
 .menu {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 70px;
 }
 
 .a-1 {
@@ -198,6 +203,408 @@ body {
 .a-1 img {
   margin-left: 20px;
 }
-.bac{
+
+.bac {
   margin-right: 0px;
+}
+
+.footr-top {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.footr-top h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+  margin: 0;
+}
+
+.footr-top p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+  padding: 0;
+  align-items: center;
+}
+
+.left {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  padding: 16px 37px;
+  text-align: center;
+  background: #F063B8;
+  border-radius: 50px;
+  color: #FFFFFF;
+  border: none;
+  margin-right: 30px;
+}
+
+.right {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  padding: 16px 29px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+
+}
+
+.left:hover {
+  cursor: pointer;
+}
+
+.right:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  margin-left: auto;
+}
+
+/* Rasmlani widht height uchun */
+.img-one {
+  width: 20px;
+  height: 14px;
+}
+
+.logo {
+  width: 49px;
+  height: 35px;
+}
+
+.img-two {
+  width: 50%;
+  height: 468px;
+}
+
+.img-three {
+  width: 477px;
+  height: 504px;
+}
+
+.img-four {
+  width: 232px;
+  height: 211px;
+}
+
+.img-five {
+  width: 241px;
+  height: 185px;
+}
+
+.img-siks {
+  width: 245px;
+  height: 181px;
+}
+
+.img-seven {
+  width: 230px;
+  height: 201px;
+}
+
+.center-left p {
+  font-size: 16px;
+  line-height: 180%;
+  color: #212353;
+}
+
+.center-left {
+  width: 335px;
+}
+
+.logo-h h2 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+  color: #212353;
+  margin-left: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-h a {
+  text-decoration: none;
+  color: #212353;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo-h {
+  margin-bottom: 60px;
+}
+
+.logo-h a img {
+  margin-right: 20px;
+}
+
+.footr-ul-left h3 {
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+
+  /* 2 */
+
+  color: black;
+}
+
+.footr-ul-left a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 250%;
+
+
+
+  text-decoration: none;
+
+  color: #212353;
+}
+
+.footr-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footr-ul-right h3 {
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+
+  /* 2 */
+
+  color: black;
+}
+
+.footr-ul-right a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 250%;
+
+
+
+  text-decoration: none;
+
+  color: #212353;
+}
+
+.footr-right img {
+  width: 50px;
+  height: 50px;
+}
+
+.footr-right-menu {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.li-10 {
+  margin-left: 10px;
+}
+
+.footr-center {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.footr-center h3 {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.footr-underline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footr-underline p {
+  width: 360px;
+  font-size: 12px;
+  line-height: 180%;
+  color: #212353;
+}
+
+.eleven {
+  width: 60px;
+  height: 60px;
+
+}
+
+.comments {
+  background: #9C69E2;
+  border-radius: 50px;
+  padding: 90px 0px 90px 90px;
+  margin-bottom: 140px;
+  width: 1118px;
+}
+
+.comments h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: white;
+  /* flex-shrink: 0; */
+
+}
+
+.comments-link {
+  background-color: #fff;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  border-radius: 20px;
+  width: 645px;
+  list-style: none;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.comment {
+  display: flex;
+  padding: 40px;
+}
+
+.text-jon {
+  width: 385px;
+  margin-left: 20px;
+}
+
+.text-jon h3 {
+  font-weight: 900;
+  font-size: 18px;
+
+}
+
+.text-jon p {
+  font-size: 18px;
+  line-height: 180%;
+  /* or 32px */
+
+
+  /* 1 */
+
+  color: #4B5D68;
+}
+
+.text-doe {
+  width: 385px;
+}
+
+.comments-link2 {
+  list-style: none;
+  background-color: #fff;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  border-radius: 20px;
+
+  padding: 40px;
+}
+
+.text-doe p {
+  font-size: 18px;
+  line-height: 180%;
+  /* or 32px */
+
+
+  /* 1 */
+
+  color: #4B5D68;
+}
+
+.text-doe h3 {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.comments-menu {
+  flex-shrink: 0;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+}
+
+.comment2 {
+  display: flex;
+  width: 550px;
+}
+
+.text-doe {
+  margin-left: 20px;
+}
+
+.mar {
+  margin-right: 20px;
+}
+.comments-menu img{
+  width: 90px;
+  height: 90px;
+}
+.butto{
+  border: none;
+background: #9C69E2;
+}
+.raed button:hover{
+  cursor: pointer;
+
+}
+.button-left{
+  width: 40px;
+  height: 14px;
+}
+.button-right{
+  width: 20px;
+  height: 14px;
+  margin-right: 76px;
+}
+.button123{
+ background-color: #fff;
+ padding: 10px;
+ border-radius: 50px;
+background-color: white;
+width: 20px;
+height: 20px;
+border: none;
+}
+.ul2{
+  padding: 0;margin: 0;
+  list-style: none;
+    display: flex;
+
+}
+.comments-link{
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+
+}
+.n4{
+padding: 15px;
+background-color: violet;
+}
+.girl{
+  color:  #9C69E2 !important;
+}
+.raed{
+  display: flex;
+  justify-content: space-between;
+}
+.ul2 li{
+
+margin-right: 10px;
 }
