@@ -279,12 +279,9 @@ body {
   height: 35px;
 }
 
-.headr-0{
-  background-image: url(./first-img.png);
-  background-position:  right bottom;
-background-size: 585px 300px;
-background-repeat: no-repeat;
-
+.img-two {
+  width: 50%;
+  height: 468px;
 }
 
 .img-three {
@@ -632,5 +629,5 @@ background-repeat: no-repeat;
 .ul2 li {
 
   margin-right: 10px;
-
+  
 }
